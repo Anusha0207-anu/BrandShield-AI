@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const router = express.Router();
-const Investigation = require("../models/Investigation");
+const Investigation = require("../models/investigation");
 
 // Convert frontend status labels to database status values.
 function normalizeStatus(status) {
